@@ -1,3 +1,7 @@
+
+
+INSTALLATION
+
 In order to install the project.
 
 
@@ -36,11 +40,35 @@ php composer-setup.php --install-dir=bin --filename=composer
 then run php bin/composer
 
 
-
 For more information check composer documentation:
 
 https://getcomposer.org/doc/
 
 
 the route will be http://localhost/pmt/public
+
+
+TEST:
+
+Just create an invoice ID and set up a price.
+
+Fill up the form and you will be redirected to our payment gateway.
+
+Once finish the process you are done with the payment.
+
+For orders check the link on the menu "Orders"
+
+IMPROVEMENTS
+
+There is a lot we can improve on this solution, front end can be much better.
+We can set up Authentication system for Orders, just to display for the shop owner.
+
+Form validation can be also implemented as well a storage of orders and checkouts on a database.
+
+
+
+
+
+
+
 
